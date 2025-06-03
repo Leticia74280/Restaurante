@@ -36,13 +36,13 @@ O **Gourmet Reservas** é uma plataforma web desenvolvida para facilitar o proce
 ### Passo 1: Clone o repositório usando o URL do projeto do Git
 
 ```bash
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Leticia74280/Restaurante.git
 ````
 
 ### Passo 2: Acesse o diretório do projeto
 
 ```bash
-cd <YOUR_PROJECT_NAME>
+cd Restaurante
 ```
 
 ### Passo 3: Instale as dependências
