@@ -28,6 +28,32 @@ O **Gourmet Reservas** é uma plataforma web desenvolvida para facilitar o proce
 * **React Query** – gerenciamento de dados assíncronos.
 * **React Router** – navegação em Single Page Application.
 * **Vite** – bundler moderno e rápido.
+* **Jest** – testes unitários e de lógica.
+
+---
+
+## Testes Unitários com Jest ✅
+
+A aplicação possui cobertura de testes unitários para a lógica de negócio crítica:
+
+### 1. Gerenciamento de Reservas
+
+- ✔ **Criar reserva**: verificação de disponibilidade de mesas e criação correta da reserva.
+- ✔ **Editar reserva**: validação de horários e entrada de dados.
+- ✔ **Cancelar reserva**: lógica de cancelamento que atualiza o status corretamente.
+- ✔ **Visualizar reservas ativas/passadas**: filtragem funcional com base na data e status da reserva.
+
+### 2. Gerenciamento de Disponibilidade
+
+- ✔ **Definir horários de funcionamento**: validação de coerência entre horário de abertura e fechamento.
+- ✔ **Configurar disponibilidade de mesas**: lógica de não sobreposição de horários por mesa.
+- ✔ **Evitar conflitos de reservas**: algoritmo detecta corretamente conflitos de horário e mesa.
+
+### 3. Gerenciamento de Usuários
+
+- ✔ **Registro de clientes**: validação de e-mail válido, senha forte e dados obrigatórios.
+- ✔ **Autenticação**: verificação de senha correta e geração de token de autenticação (mockado).
+- ✔ **Perfis de clientes**: funções que exibem ou processam dados de perfil sem dependência direta de banco de dados.
 
 ---
 
